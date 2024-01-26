@@ -1,16 +1,25 @@
 {
-  "name": "Concurrent::Queue",
-  "description": "A lock-free concurrent queue data structure.",
-  "version": "1.1",
-  "perl": "6.*",
+  "auth": "zef:raku-community-modules",
   "authors": [
     "Jonathan Worthington <jnthn@jnthn.net>"
   ],
-  "depends": [],
-  "provides": {
-    "Concurrent::Queue": "lib/Concurrent/Queue.pm6"
-  },
-  "resources": [],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "A lock-free concurrent queue data structure",
   "license": "Artistic-2.0",
-  "source-url": "https://github.com/jnthn/p6-concurrent-queue.git"
+  "name": "Concurrent::Queue",
+  "perl": "6.c",
+  "provides": {
+    "Concurrent::Queue": "lib/Concurrent/Queue.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/raku-community-modules/Concurrent-Queue.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "1.1"
 }
